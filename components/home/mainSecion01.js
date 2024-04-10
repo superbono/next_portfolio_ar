@@ -16,7 +16,7 @@ export default function MainSecion01() {
           들알유계는 락으가 힌검. 터어의
         </p>
         <div className="flex justify-center">
-          <button className="inline-flex text-white bg-indigo-500 border-0 py-2 px-6 focus:outline-none hover:bg-indigo-600 rounded text-lg">
+          <button className="inline-flex text-white bg-slate-400  border-0 py-2 px-6 focus:outline-none hover:bg-slate-600 rounded text-lg">
             프로젝트 보러가기
           </button>
           {/* <button className="ml-4 inline-flex text-gray-700 bg-gray-100 border-0 py-2 px-6 focus:outline-none hover:bg-gray-200 rounded text-lg">

@@ -1,8 +1,16 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+/* @import url("https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@100..900&display=swap") */
+@layer base {
+  /* 글로벌 폰트 설정 */
+  body {
+    font-family: "Noto Sans KR", sans-serif;
+    /* 또는 다른 원하는 폰트 설정 */
+  }
+}
 
-.bg-primary {
+/* .bg-primary {
   @apply bg-white dark:bg-slate-800;
 }
 
@@ -41,4 +49,4 @@ a {
 
 p {
   @apply text-slate-500 dark:text-slate-400;
-}
+} */

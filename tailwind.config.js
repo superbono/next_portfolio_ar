@@ -7,6 +7,9 @@ module.exports = {
   darkMode: "class",
   theme: {
     extend: {},
+    // colors: {
+    //   // "custom-mint": "#77B0AA",
+    // },
   },
   plugins: [],
 };
