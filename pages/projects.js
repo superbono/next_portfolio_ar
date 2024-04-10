@@ -1,11 +1,11 @@
-import styles from "../styles/Home.module.css";
+import DefaultLayout from "../components/layout";
 
 export default function Project() {
   return (
-    <div className={styles.container}>
+    <DefaultLayout>
       <main>
-        <h2>Project</h2>
+        <h2>Projects</h2>
       </main>
-    </div>
+    </DefaultLayout>
   );
 }
