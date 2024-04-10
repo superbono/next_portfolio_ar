@@ -1,5 +1,10 @@
 // import Head from "next/head";
-import MainSecion01 from "../components/home/MainSecion01";
+import React from "react";
+// import Slider from "react-slick";
+import "slick-carousel/slick/slick.css";
+import "slick-carousel/slick/slick-theme.css";
+import MainSection01 from "../components/home/mainSection01";
+import MainSection00 from "../components/home/mainSection00";
 import DefaultLayout from "../components/layout";
 
 export default function Home() {
@@ -11,9 +16,13 @@ export default function Home() {
         <link rel="icon" href="/favicon.ico" />
       </Head> */}
       <main>
-        <section className="flex min-h-screen flex-col items-center justify-center text-gray-600 body-font">
+        {/* <section className="flex min-h-screen flex-col items-center justify-center text-gray-600 body-font"> */}
+        <section className="mx-auto px-16 ml-1">
+          <MainSection00 />
+        </section>
+        <section className="flex  flex-col items-center justify-center text-gray-600 body-font">
           <div className="container mx-auto flex px-5 py-24 md:flex-row flex-col items-center">
-            <MainSecion01 />
+            <MainSection01 />
           </div>
         </section>
       </main>
