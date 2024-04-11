@@ -16,16 +16,6 @@ import quasarSrc from "../../public/icons/quasar.png";
 import vsSrc from "../../public/icons/vscode.png";
 
 export default function mainSection00() {
-  // const settings = {
-  //   dots: false,
-  //   infinite: true,
-  //   slidesToShow: 3,
-  //   slidesToScroll: 1,
-  //   autoplay: true,
-  //   speed: 3000,
-  //   autoplaySpeed: 2000,
-  //   cssEase: "linear",
-  // };
   const settings = {
     dots: false,
     className: "center",
@@ -36,7 +26,6 @@ export default function mainSection00() {
     autoplaySpeed: 2000,
     slidesToShow: 10,
     swipeToSlide: true,
-    infinite: true,
     afterChange: function (index) {
       console.log(
         `Slider Changed to: ${index + 1}, background: #222; color: #bada55`
@@ -44,7 +33,7 @@ export default function mainSection00() {
     },
   };
   return (
-    <div className="slider-container mt-40">
+    <div className="slider-container mt-20">
       <Slider {...settings}>
         <div>
           <Image src={htmlSrc} alt="htlm" width={50} height={50} />

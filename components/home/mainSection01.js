@@ -1,4 +1,5 @@
 import MainLottie from "../lotties/MainLottie";
+import Link from "next/link";
 
 export default function MainSecion01() {
   return (
@@ -19,9 +20,11 @@ export default function MainSecion01() {
           노력하고 있습니다.
         </p>
         <div className="flex justify-center">
-          <button className="inline-flex text-white bg-slate-400  border-0 py-2 px-6 focus:outline-none hover:bg-slate-600 rounded text-lg">
-            프로젝트 보러가기
-          </button>
+          <Link href="/projects">
+            <a className="inline-flex text-white bg-slate-700  border-0 py-2 px-6 focus:outline-none hover:bg-slate-800 hover:text-white rounded text-lg">
+              프로젝트 보러가기
+            </a>
+          </Link>
           {/* <button className="ml-4 inline-flex text-gray-700 bg-gray-100 border-0 py-2 px-6 focus:outline-none hover:bg-gray-200 rounded text-lg">
                   Button
                 </button> */}
