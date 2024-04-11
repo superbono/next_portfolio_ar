@@ -1,5 +1,7 @@
-import MainLottie from "../lotties/MainLottie";
+// import MainLottie from "../lotties/MainLottie";
 import Link from "next/link";
+import Lottie from "react-lottie-player";
+import lottieJson from "/public/animation.json";
 
 export default function MainSecion01() {
   return (
@@ -31,7 +33,13 @@ export default function MainSecion01() {
         </div>
       </div>
       {/* <div className="lg:max-w-lg lg:w-full md:w-1/2 w-5/6"> */}
-      <MainLottie />
+      {/* <MainLottie /> */}
+      <Lottie
+        loop
+        animationData={lottieJson}
+        play
+        style={{ width: 270, height: 270 }}
+      />
       {/* </div> */}
     </>
   );
