@@ -1,6 +1,4 @@
 import Link from "next/link";
-import chatSrc from "../../public/icons/chat.png";
-import Image from "next/image";
 
 export default function Footer() {
   return (
