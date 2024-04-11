@@ -3,7 +3,7 @@ import DarkModeToggle from "./dark-mode-toggle";
 
 export default function Header() {
   return (
-    <header className="text-gray-600 body-font mt-3">
+    <header className="text-gray-600 body-font pt-3">
       <div className="container mx-auto flex flex-wrap p-5 flex-col md:flex-row items-center">
         <Link href="/">
           <a className="flex title-font font-medium items-center text-gray-900 mb-4 md:mb-0">
@@ -36,7 +36,20 @@ export default function Header() {
             이력서
           </a>
           <Link href="/projects">
-            <a className="mr-10 hover:text-gray-900">프로젝트</a>
+            <a className="mr-10 hover:text-gray-900">프로젝트(경력)</a>
+          </Link>
+          {/* <a
+            href="https://mood-diary-choiar.web.app/"
+            target="_blank"
+            className="mr-10 hover:text-gray-900"
+            rel="noreferrer"
+          >
+            개인프로젝트
+          </a> */}
+          <Link href="persnal-project">
+            <a className="mr-10 hover:text-gray-900" rel="noreferrer">
+              개인프로젝트
+            </a>
           </Link>
           <a
             href="https://open.kakao.com/o/smARmplg"

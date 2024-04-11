@@ -19,9 +19,9 @@ export default function MainSecion01() {
           많은 성장을 이루고, 혁신적인 솔루션을 만들어내는 일에 보람을 느끼고
           노력하고 있습니다.
         </p>
-        <div className="flex justify-center">
+        <div className="flex justify-center mt-4">
           <Link href="/projects">
-            <a className="inline-flex text-white bg-slate-700  border-0 py-2 px-6 focus:outline-none hover:bg-slate-800 hover:text-white rounded text-lg">
+            <a className="btn-project inline-flex text-white border-0 py-2 px-6 focus:outline-none hover:text-white rounded text-lg">
               프로젝트 보러가기
             </a>
           </Link>

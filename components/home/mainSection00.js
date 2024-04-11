@@ -22,7 +22,7 @@ export default function mainSection00() {
     infinite: true,
     centerPadding: "20px",
     autoplay: true,
-    speed: 1500,
+    speed: 2000,
     autoplaySpeed: 2000,
     slidesToShow: 10,
     swipeToSlide: true,
@@ -39,40 +39,40 @@ export default function mainSection00() {
           <Image src={htmlSrc} alt="htlm" width={50} height={50} />
         </div>
         <div>
-          <Image src={cssSrc} alt="htlm" width={50} height={50} />
+          <Image src={cssSrc} alt="css" width={50} height={50} />
         </div>
         <div>
-          <Image src={sassSrc} alt="htlm" width={50} height={50} />
+          <Image src={sassSrc} alt="sass" width={50} height={50} />
         </div>
         <div>
-          <Image src={twSrc} alt="htlm" width={50} height={50} />
+          <Image src={twSrc} alt="tailwind" width={50} height={50} />
         </div>
         <div>
-          <Image src={jsSrc} alt="htlm" width={50} height={50} />
+          <Image src={jsSrc} alt="js" width={50} height={50} />
         </div>
         <div>
-          <Image src={vsSrc} alt="htlm" width={50} height={50} />
+          <Image src={vsSrc} alt="vscode" width={50} height={50} />
         </div>
         <div>
-          <Image src={reactSrc} alt="htlm" width={50} height={50} />
+          <Image src={reactSrc} alt="react" width={50} height={50} />
         </div>
         <div>
-          <Image src={nextSrc} alt="htlm" width={50} height={50} />
+          <Image src={nextSrc} alt="next" width={50} height={50} />
         </div>
         <div>
-          <Image src={vueSrc} alt="htlm" width={50} height={50} />
+          <Image src={vueSrc} alt="vue" width={50} height={50} />
         </div>
         <div>
-          <Image src={nuxtSrc} alt="htlm" width={50} height={50} />
+          <Image src={nuxtSrc} alt="nuxt" width={50} height={50} />
         </div>
         <div>
-          <Image src={storybookSrc} alt="htlm" width={50} height={50} />
+          <Image src={storybookSrc} alt="storybook" width={50} height={50} />
         </div>
         <div>
-          <Image src={githubSrc} alt="htlm" width={50} height={50} />
+          <Image src={githubSrc} alt="github" width={50} height={50} />
         </div>
         <div>
-          <Image src={quasarSrc} alt="htlm" width={50} height={50} />
+          <Image src={quasarSrc} alt="quasar" width={50} height={50} />
         </div>
       </Slider>
     </div>
