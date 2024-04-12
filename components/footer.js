@@ -49,9 +49,9 @@ export default function Footer() {
           </p>
           <span className="inline-flex sm:ml-auto sm:mt-0 mt-4 justify-center sm:justify-start">
             <a
-              href="https://www.instagram.com/writing_r/?hl=ko"
+              // href="https://www.instagram.com/writing_r/?hl=ko"
               className="ml-3 text-gray-500 mt-1"
-              target="_blank"
+              // target="_blank"
               rel="noreferrer"
             >
               <svg
