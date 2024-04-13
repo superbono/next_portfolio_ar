@@ -25,7 +25,7 @@ export default function Header() {
         </Link>
         <nav className="md:ml-auto flex flex-wrap items-center text-base justify-center">
           <Link href="#home">
-            <a className="mr-10 hover:text-gray-900">홈</a>
+            <a className="ml-4 mr-6 hover:text-gray-900">홈</a>
           </Link>
           {/* <a
             href="https://forest-ermine-7eb.notion.site/R-E-S-U-M-E-10649d7b7623429f9eb03c1a6088c99e"
@@ -36,10 +36,10 @@ export default function Header() {
             이력서
           </a> */}
           <Link href="#rolling">
-            <a className="mr-10 hover:text-gray-900">기술스택</a>
+            <a className="mr-8 hover:text-gray-900">기술스택</a>
           </Link>
           <Link href="#projects">
-            <a className="mr-10 hover:text-gray-900">프로젝트</a>
+            <a className="mr-6 hover:text-gray-900">프로젝트</a>
           </Link>
           {/* <Link href="#faq">
             <a className="mr-10 hover:text-gray-900">FAQ</a>
@@ -60,7 +60,7 @@ export default function Header() {
           <a
             href="https://open.kakao.com/o/smARmplg"
             target="_blank"
-            className="mr-6 hover:text-gray-900"
+            className="mr-2 hover:text-gray-900"
             rel="noreferrer"
           >
             연락처

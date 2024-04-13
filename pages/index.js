@@ -28,7 +28,7 @@ export default function Home({ projects }) {
         {/* <section className="flex min-h-screen flex-col items-center justify-center text-gray-600 body-font"> */}
         <section
           style={{
-            width: "74%",
+            width: "90%",
             margin: "0 auto",
           }}
         >
@@ -36,7 +36,7 @@ export default function Home({ projects }) {
         </section>
         <div id="projects">
           <ProjectContentsCareer />
-          <h1 className="px-14 text-xl font-bold">👨‍👦‍👦 COMPANY</h1>
+          <h1 className="px-8 text-xl font-bold">👨‍👦‍👦 COMPANY</h1>
           <div className="grid grid-cols-1 gap-8 pt-0 pb-4 pl-4 pr-4 m-4 md:grid-cols-2">
             {projects.results.map((item) => (
               <ProjectItem key={item.id} data={item} />
