@@ -42,9 +42,9 @@ export default function Home({ projects }) {
               <ProjectItem key={item.id} data={item} />
             ))}
           </div>
+          <h1 className="px-14 text-xl mt-20 font-bold">👦🏻 PERSANL</h1>
+          <PersnalProject />
         </div>
-        <h1 className="px-14 text-xl mt-20 font-bold">👦🏻 PERSANL</h1>
-        <PersnalProject />
         {/* <section className="flex  flex-col items-center justify-center text-gray-600 body-font">
           <div className="container mx-auto flex px-5 py-24 md:flex-row flex-col items-center">
             <MainSection01 />

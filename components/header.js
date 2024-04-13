@@ -41,9 +41,9 @@ export default function Header() {
           <Link href="#projects">
             <a className="mr-10 hover:text-gray-900">프로젝트</a>
           </Link>
-          <Link href="#projects">
-            <a className="mr-10 hover:text-gray-900">질문</a>
-          </Link>
+          {/* <Link href="#faq">
+            <a className="mr-10 hover:text-gray-900">FAQ</a>
+          </Link> */}
           {/* <a
             href="https://mood-diary-choiar.web.app/"
             target="_blank"

@@ -13,6 +13,7 @@ export default function DetailStack() {
           </div>
           <div className="flex-grow">
             <p className="leading-relaxed text-base">- JavaScript</p>
+            <p className="leading-relaxed text-base">- TypeScript</p>
           </div>
         </div>
       </div>
@@ -31,6 +32,8 @@ export default function DetailStack() {
             <p className="leading-relaxed text-base">- Nuxt</p>
             <p className="leading-relaxed text-base">- HTML</p>
             <p className="leading-relaxed text-base">- CSS</p>
+            <p className="leading-relaxed text-base">- Pinia</p>
+            <p className="leading-relaxed text-base">- Recoil</p>
           </div>
         </div>
       </div>
@@ -91,6 +94,7 @@ export default function DetailStack() {
             </h2>
           </div>
           <div className="flex-grow">
+            <p className="leading-relaxed text-base">- Postman</p>
             <p className="leading-relaxed text-base">- Zeplin</p>
             <p className="leading-relaxed text-base">- Figma</p>
             <p className="leading-relaxed text-base">- Notion</p>
