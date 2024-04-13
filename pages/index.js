@@ -11,8 +11,6 @@ import ProjectItem from "../components/projects/project-item";
 import { TOKEN, DATABASE_ID } from "../config";
 import PersnalProject from "../components/personal/personal-pjt";
 
-// import MainSection03 from "../components/home/mainSection03";
-
 export default function Home({ projects }) {
   return (
     <DefaultLayout>

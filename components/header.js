@@ -3,7 +3,7 @@ import DarkModeToggle from "./dark-mode-toggle";
 
 export default function Header() {
   return (
-    <header className="text-gray-600 body-font pt-3">
+    <header className="text-gray-600 body-font pt-2 fixed bg-white shadow-md z-20 w-full top-0 dark:bg-slate-700 dark:shadow-xl">
       <div className="container mx-auto flex flex-wrap p-4 flex-col md:flex-row items-center">
         <Link href="/">
           <a className="flex title-font font-medium items-center text-gray-900 mb-4 md:mb-0">
@@ -24,7 +24,7 @@ export default function Header() {
           </a>
         </Link>
         <nav className="md:ml-auto flex flex-wrap items-center text-base justify-center">
-          <Link href="#home">
+          <Link href="#">
             <a className="ml-4 mr-6 hover:text-gray-900">홈</a>
           </Link>
           {/* <a

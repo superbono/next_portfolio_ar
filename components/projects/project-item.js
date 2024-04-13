@@ -74,13 +74,17 @@ export default function ProjectItem({ data }) {
         )} */}
 
         {/* <a href={planUrl}>유튜브 시연영상 보러가기</a> */}
-        <p className="my-1 font-bold">
-          작업기간 : {start} ~ {end} ({calculatedPeriod(start, end)}일)
+        <p className="my-1 font-bold text-base">
+          근무기간 : {start}~{end} ({calculatedPeriod(start, end)}일)
         </p>
         <div className="flex items-start mt-2 overflow-hidden">
           {tags.map((aTag) => (
+            // <h1
+            //   className="px-2 py-1 mr-2 rounded-md bg-sky-200 dark:bg-sky-700 w-30"
+            //   key={aTag.id}
+            // >
             <h1
-              className="px-2 py-1 mr-2 rounded-md bg-sky-200 dark:bg-sky-700 w-30"
+              className="text-xs px-2 py-1 mr-2 rounded-xl bg-green-100 text-green-700 dark:bg-slate-500 w-30"
               key={aTag.id}
             >
               {aTag.name}

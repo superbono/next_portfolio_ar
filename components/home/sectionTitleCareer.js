@@ -10,7 +10,7 @@ const SectionTitle = (props) => {
     >
       <h5 className="font-bold text-lg  mt-10 sm:text-xl md:text-2xl lg:text-3xl xl:text-3xl">
         H I S T O R Y 😀
-        <span className="pl-4 text-blue-400">
+        <span className="pl-4 text-emerald-500">
           {/* {projects.results.length} 건 */}
           (5년 6개월)
           <a
@@ -42,7 +42,7 @@ const SectionTitle = (props) => {
               />
             </svg>
             <span className="sm:text-base md:text-lg lg:text-1xl xl:text-2xl">
-              상세 보러가기
+              상세내용 보러가기
             </span>
           </a>
         </span>

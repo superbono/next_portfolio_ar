@@ -39,7 +39,7 @@ export default function mainSection00() {
         style={{ textAlign: "center" }}
         className="font-bold mb-10 mt-10   md:text-base lg:text-3xl xl:text-3xl"
       >
-        프론트엔드 개발시에 사용했던 기술입니다.
+        🔰 프론트엔드 개발시에 사용했던 기술스택
       </h1>
       <Slider {...settings}>
         <div>
