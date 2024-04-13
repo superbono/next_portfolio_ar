@@ -36,13 +36,15 @@ export default function Home({ projects }) {
         </section>
         <div id="projects">
           <ProjectContentsCareer />
-          <h1 className="px-8 text-xl font-bold">👨‍👦‍👦 COMPANY</h1>
+          <h1 className="px-8 text-base font-bold md:text-lg lg:text-xl">
+            👨‍👦‍👦 COMPANY
+          </h1>
           <div className="grid grid-cols-1 gap-8 pt-0 pb-4 pl-4 pr-4 m-4 md:grid-cols-2">
             {projects.results.map((item) => (
               <ProjectItem key={item.id} data={item} />
             ))}
           </div>
-          <h1 className="px-14 text-xl mt-20 font-bold">👦🏻 PERSANL</h1>
+          <h1 className="px-14 text-base mt-20 font-bold">👦🏻 PERSANL</h1>
           <PersnalProject />
         </div>
         {/* <section className="flex  flex-col items-center justify-center text-gray-600 body-font">

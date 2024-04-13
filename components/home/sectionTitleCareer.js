@@ -8,8 +8,8 @@ const SectionTitle = (props) => {
         props.align === "left" ? "" : "items-center justify-center text-center"
       }`}
     >
-      <h5 className="font-bold  mt-10 sm:text-base md:text-2xl lg:text-3xl xl:text-3xl">
-        D E V E L O P E R H I S T O R Y 😀
+      <h5 className="font-bold text-lg  mt-10 sm:text-xl md:text-2xl lg:text-3xl xl:text-3xl">
+        H I S T O R Y 😀
         <span className="pl-4 text-blue-400">
           {/* {projects.results.length} 건 */}
           (5년 6개월)

@@ -6,7 +6,7 @@ import Image from "next/image";
 export default function PersonalPjt() {
   return (
     <section className="text-gray-600 body-font  min-h-screen">
-      <div className="container px-5 py-24 mx-auto flex flex-col">
+      <div className="container px-5 py-8 mx-auto flex flex-col">
         <div className="lg:w-4/6 mx-auto">
           <div className="rounded-lg h-100 overflow-hidden">
             <Image
@@ -37,11 +37,10 @@ export default function PersonalPjt() {
                 # 소개: 오늘 하루 고생한 나의 감정을 기록하는 다이어리 서비스
               </p>
               <p className="leading-relaxed text-sm mb-1">
-                # 환경: 모바일에 최적화되어 있으며 추후 웹 관련 작업예정입니다.
+                # 환경: 모바일에 최적화되어 있으며 추후 웹 관련 작업예정
               </p>
               <p className="leading-relaxed text-sm mb-1">
-                # 기획 - 분석 - 설계 - 개발 - 배포 단계를 거쳐 작업을
-                진행하였습니다.
+                # 기획 - 분석 - 설계 - 개발 - 배포 단계를 거쳐 작업을 진행
               </p>
               <p className="leading-relaxed text-sm mb-1 font-bold">
                 # 기술스택: Vscode / React.js / TypeScript / Firebase
