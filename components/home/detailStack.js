@@ -4,7 +4,7 @@ export default function DetailStack() {
   return (
     <div className="flex flex-wrap mt-10 ">
       <div className="p-4" style={{ width: "100%" }}>
-        <div className="flex rounded-lg h-full border-2 border-gray-400  cursor-pointer p-10 flex-col hover:scale-105">
+        <div className="flex rounded-lg h-full border-2 border-gray-400  cursor-pointer p-10 flex-col hover:scale-105 duration-700">
           <div className="flex items-center mb-3">
             {/* <div className="w-8 h-1 mr-3 inline-flex items-center justify-center rounded-full bg-indigo-500 text-white flex-shrink-0"></div> */}
             <h2 className="text-gray-900 text-lg title-font font-medium">
@@ -18,7 +18,7 @@ export default function DetailStack() {
         </div>
       </div>
       <div className="p-4" style={{ width: "100%" }}>
-        <div className="flex rounded-lg h-full border-2 border-gray-400 cursor-pointer p-10 flex-col hover:scale-105">
+        <div className="flex rounded-lg h-full border-2 border-gray-400 cursor-pointer p-10 flex-col hover:scale-105 duration-700">
           <div className="flex items-center mb-3">
             {/* <div className="w-8 h-1 mr-3 inline-flex items-center justify-center rounded-full bg-indigo-500 text-white flex-shrink-0"></div> */}
             <h2 className="text-gray-900 text-lg title-font font-medium">
@@ -39,7 +39,7 @@ export default function DetailStack() {
       </div>
       {/* <div className="p-4 md:w-1/2"> */}
       <div className="p-4" style={{ width: "100%" }}>
-        <div className="flex rounded-lg h-full border-2 border-gray-400 cursor-pointer p-10 flex-col hover:scale-105">
+        <div className="flex rounded-lg h-full border-2 border-gray-400 cursor-pointer p-10 flex-col hover:scale-105 duration-700">
           <div className="flex items-center mb-3">
             {/* <div className="w-8 h-1 mr-3 inline-flex items-center justify-center rounded-full bg-indigo-500 text-white flex-shrink-0"></div> */}
             <h2 className="text-gray-900 text-lg title-font font-medium">
@@ -57,7 +57,7 @@ export default function DetailStack() {
         </div>
       </div>
       <div className="p-4" style={{ width: "100%" }}>
-        <div className="flex rounded-lg h-full border-2 border-gray-400 cursor-pointer p-10 flex-col hover:scale-105">
+        <div className="flex rounded-lg h-full border-2 border-gray-400 cursor-pointer p-10 flex-col hover:scale-105 duration-700">
           <div className="flex items-center mb-3">
             {/* <div className="w-8 h-1 mr-3 inline-flex items-center justify-center rounded-full bg-indigo-500 text-white flex-shrink-0"></div> */}
             <h2 className="text-gray-900 text-lg title-font font-medium">
@@ -71,7 +71,7 @@ export default function DetailStack() {
         </div>
       </div>
       <div className="p-4 " style={{ width: "100%" }}>
-        <div className="flex rounded-lg h-full border-2 border-gray-400 cursor-pointer  p-10 flex-col hover:scale-105">
+        <div className="flex rounded-lg h-full border-2 border-gray-400 cursor-pointer  p-10 flex-col hover:scale-105 duration-700">
           <div className="flex items-center mb-3">
             {/* <div className="w-8 h-1 mr-3 inline-flex items-center justify-center rounded-full bg-indigo-500 text-white flex-shrink-0"></div> */}
             <h2 className="text-gray-900 text-lg title-font font-medium">
@@ -87,7 +87,7 @@ export default function DetailStack() {
         </div>
       </div>
       <div className="p-4 " style={{ width: "100%" }}>
-        <div className="flex rounded-lg h-full border-2 border-gray-400  cursor-pointer p-8 flex-col hover:scale-105">
+        <div className="flex rounded-lg h-full border-2 border-gray-400  cursor-pointer p-8 flex-col hover:scale-105 duration-700">
           <div className="flex items-center mb-3">
             {/* <div className="w-8 h-1 mr-3 inline-flex items-center justify-center rounded-full bg-indigo-500 text-white flex-shrink-0"></div> */}
             <h2 className="text-gray-900 text-lg title-font font-medium">

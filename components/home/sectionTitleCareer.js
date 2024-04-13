@@ -8,7 +8,7 @@ const SectionTitle = (props) => {
         props.align === "left" ? "" : "items-center justify-center text-center"
       }`}
     >
-      <h5 className="font-bold text-lg  mt-10 sm:text-xl md:text-2xl lg:text-3xl xl:text-3xl">
+      <h5 className="font-bold text-lg  mt-24 sm:text-xl md:text-2xl lg:text-3xl xl:text-3xl">
         H I S T O R Y 😀
         <span className="pl-4 text-emerald-500">
           {/* {projects.results.length} 건 */}
@@ -27,7 +27,7 @@ const SectionTitle = (props) => {
             }}
             rel="noreferrer"
           >
-            <svg
+            {/* <svg
               xmlns="http://www.w3.org/2000/svg"
               fill="none"
               viewBox="0 0 24 24"
@@ -40,10 +40,13 @@ const SectionTitle = (props) => {
                 strokeLinejoin="round"
                 d="M13.5 4.5 21 12m0 0-7.5 7.5M21 12H3"
               />
-            </svg>
-            <span className="sm:text-base md:text-lg lg:text-1xl xl:text-2xl">
+            </svg> */}
+            <span className="text-white font-medium bg-emerald-400 border-0 w-full px-6 focus:outline-none hover:bg-emerald-600 rounded text-base py-3">
               상세내용 보러가기
             </span>
+            {/* <span className="sm:text-base md:text-lg lg:text-1xl xl:text-2xl">
+              상세내용 보러가기
+            </span> */}
           </a>
         </span>
       </h5>

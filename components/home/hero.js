@@ -8,7 +8,7 @@ import lottieJson from "../../public/animation.json";
 const Hero = () => {
   return (
     <>
-      <Container className="flex flex-wrap min-h-full mt-10 mb-10" id="home">
+      <Container className="flex flex-wrap min-h-full mt-20 mb-10" id="home">
         <div className="flex items-center justify-center w-full lg:w-1/2">
           <div className="">
             {/* <Image

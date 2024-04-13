@@ -7,7 +7,7 @@ export default function Footer() {
         <div className="container px-5 py-6 mx-auto flex items-center sm:flex-row flex-col">
           <Link href="/">
             <a className="flex title-font font-medium items-center md:justify-start justify-center text-gray-900">
-              <span className="ml-3 text-xl">
+              <span className="ml-3 text-md">
                 Frontend Developer 💻 최아리{" "}
               </span>
             </a>
