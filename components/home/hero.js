@@ -8,7 +8,10 @@ import lottieJson from "../../public/animation.json";
 const Hero = () => {
   return (
     <>
-      <Container className="flex flex-wrap min-h-full mt-10 mb-10" id="home">
+      <Container
+        className="flex flex-wrap min-h-full pt-28 mt-10 mb-10"
+        id="home"
+      >
         <div className="flex items-center justify-center w-full lg:w-1/2">
           <div className="">
             {/* <Image
@@ -24,7 +27,7 @@ const Hero = () => {
               loop
               animationData={lottieJson}
               play
-              style={{ width: 450, height: 450 }}
+              style={{ width: 370, height: 370 }}
             />
           </div>
         </div>
