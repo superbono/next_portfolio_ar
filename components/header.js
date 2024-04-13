@@ -4,7 +4,7 @@ import DarkModeToggle from "./dark-mode-toggle";
 export default function Header() {
   return (
     <header className="text-gray-600 body-font pt-3">
-      <div className="container mx-auto flex flex-wrap p-5 flex-col md:flex-row items-center">
+      <div className="container mx-auto flex flex-wrap p-4 flex-col md:flex-row items-center">
         <Link href="/">
           <a className="flex title-font font-medium items-center text-gray-900 mb-4 md:mb-0">
             {/* <svg
@@ -24,19 +24,25 @@ export default function Header() {
           </a>
         </Link>
         <nav className="md:ml-auto flex flex-wrap items-center text-base justify-center">
-          <Link href="/">
+          <Link href="#home">
             <a className="mr-10 hover:text-gray-900">홈</a>
           </Link>
-          <a
+          {/* <a
             href="https://forest-ermine-7eb.notion.site/R-E-S-U-M-E-10649d7b7623429f9eb03c1a6088c99e"
             target="_blank"
             className="mr-10 hover:text-gray-900"
             rel="noreferrer"
           >
             이력서
-          </a>
-          <Link href="/projects">
-            <a className="mr-10 hover:text-gray-900">프로젝트(경력)</a>
+          </a> */}
+          <Link href="#rolling">
+            <a className="mr-10 hover:text-gray-900">기술스택</a>
+          </Link>
+          <Link href="#projects">
+            <a className="mr-10 hover:text-gray-900">프로젝트</a>
+          </Link>
+          <Link href="#projects">
+            <a className="mr-10 hover:text-gray-900">질문</a>
           </Link>
           {/* <a
             href="https://mood-diary-choiar.web.app/"
@@ -46,11 +52,11 @@ export default function Header() {
           >
             개인프로젝트
           </a> */}
-          <Link href="persnal-project">
+          {/* <Link href="persnal-project">
             <a className="mr-10 hover:text-gray-900" rel="noreferrer">
               개인프로젝트
             </a>
-          </Link>
+          </Link> */}
           <a
             href="https://open.kakao.com/o/smARmplg"
             target="_blank"
@@ -59,8 +65,8 @@ export default function Header() {
           >
             연락처
           </a>
+          <DarkModeToggle />
         </nav>
-        <DarkModeToggle />
       </div>
     </header>
   );

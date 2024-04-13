@@ -10,8 +10,8 @@ export default function DarkModeToggle() {
     <>
       <button
         className="
-               inline-flex items-center
-               border-0 py-1 px-3 rounded text-base mt-4 md:mt-0
+               justify-center inline-flex items-center
+               border-0 ml-4 py-1 px-3 rounded text-base md:mt-0
                 focus:outline-none
                 bg-gray-100
                 hover:bg-gray-50

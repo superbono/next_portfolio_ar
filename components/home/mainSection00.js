@@ -14,6 +14,7 @@ import storybookSrc from "../../public/icons/storybook.png";
 import githubSrc from "../../public/icons/github.png";
 import quasarSrc from "../../public/icons/quasar.png";
 import vsSrc from "../../public/icons/vscode.png";
+import DetailStack from "./detailStack";
 
 export default function mainSection00() {
   const settings = {
@@ -27,13 +28,19 @@ export default function mainSection00() {
     slidesToShow: 10,
     swipeToSlide: true,
     afterChange: function (index) {
-      console.log(
-        `Slider Changed to: ${index + 1}, background: #222; color: #bada55`
-      );
+      // console.log(
+      //   `Slider Changed to: ${index + 1}, background: #222; color: #bada55`
+      // );
     },
   };
   return (
-    <div className="slider-container mt-20">
+    <div id="rolling" className="slider-container pt-10 pb-20 ">
+      <h1
+        style={{ textAlign: "center" }}
+        className="font-bold mb-10 mt-10 md:text-2xl sm:text-xl lg:text-3xl xl:text-3xl"
+      >
+        프론트엔드 개발시에 사용했던 기술스택입니다.
+      </h1>
       <Slider {...settings}>
         <div>
           <Image src={htmlSrc} alt="htlm" width={50} height={50} />
@@ -75,6 +82,7 @@ export default function mainSection00() {
           <Image src={quasarSrc} alt="quasar" width={50} height={50} />
         </div>
       </Slider>
+      <DetailStack />
     </div>
   );
 }

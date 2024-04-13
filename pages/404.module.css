@@ -1,0 +1,35 @@
+@import url("https://fonts.googleapis.com/css2?family=Black+Han+Sans&family=Noto+Sans+KR:wght@100..900&display=swap");
+
+.container {
+  font-family: "Noto Sans KR", sans-serif;
+  font-optical-sizing: auto;
+  font-style: normal;
+}
+
+.page_404 {
+  padding: 40px 0;
+  background: #fff;
+  font-family: "Arvo", serif;
+}
+
+.page_404 img {
+  width: 100%;
+}
+
+.four_zero_four_bg {
+  background-image: url(https://cdn.dribbble.com/users/285475/screenshots/2083086/dribbble_1.gif);
+  height: 400px;
+  background-position: center;
+}
+
+.link_404 {
+  color: #fff !important;
+  padding: 10px 20px;
+  background: #bbf7d0;
+  margin: 20px 0;
+  display: inline-block;
+  font-weight: 550;
+}
+.contant_box_404 {
+  margin-top: -50px;
+}

@@ -6,9 +6,9 @@ import lottieJson from "/public/animation.json";
 export default function MainSecion01() {
   return (
     <>
-      <div className="lg:flex-grow md:w-1/2 lg:pr-24 md:pr-16 flex flex-col md:items-start md:text-left mb-16 md:mb-0 items-center text-center">
+      <div className="min-h-screen lg:flex-grow md:w-1/2 lg:pr-24 md:pr-16 flex flex-col md:items-start md:text-left mb-16 md:mb-0 items-center text-center">
         <div className=" mb-2 font-medium text-gray-900">
-          <h1 className="title-font sm:text-4xl text-3xl">HELLO!</h1>
+          <h1 className="title-font sm:text-4xl text-3xl">Welcome :-D</h1>
           <br className="hidden lg:inline-block" />
           <h2 style={{ fontSize: "20px" }}>프론트엔드 개발자 최아리입니다.</h2>
         </div>
