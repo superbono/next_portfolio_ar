@@ -34,7 +34,7 @@ const Hero = () => {
         <div className="flex items-center w-full lg:w-1/2">
           <div className="max-w-2xl mb-2">
             <h1 className=" text-2xl font-bold leading-snug tracking-tight text-gray-800 lg:text-4xl lg:leading-tight xl:text-4xl xl:leading-tight dark:text-white">
-              Welcome To My World! 😎
+              Welcome To My World !
             </h1>
             <p
               style={{ fontSize: "0.85em" }}
