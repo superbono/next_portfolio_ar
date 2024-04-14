@@ -25,11 +25,13 @@
 .link_404 {
   color: #fff !important;
   padding: 10px 20px;
-  background: #bbf7d0;
+  background: #929292;
   margin: 20px 0;
   display: inline-block;
-  font-weight: 550;
+  font-size: 14px;
+  /* font-weight: 550; */
 }
+
 .contant_box_404 {
   margin-top: -50px;
 }

@@ -1,38 +1,43 @@
 import style from "./404.module.css";
-// import Head from "next/head";
+import Head from "next/head";
 import Link from "next/link";
+import Lottie from "react-lottie-player";
+import lottieJson from "../public/404.json";
 
 export default function NotFoundPage() {
   return (
     <section className={style.page_404}>
-      {/* <Head>
-        <Link rel="preconnect" href="https://fonts.googleapis.com" />
-        <Link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-        <Link
-          href="https://fonts.googleapis.com/css2?family=Black+Han+Sans&family=Noto+Sans+KR:wght@100..900&display=swap"
-          rel="stylesheet"
-        />
-      </Head> */}
+      <Head>
+        <title>에러페이지</title>
+        <meta name="Main Page" content="에러페이지입니다." />
+        <link rel="icon" href="/favicon.ico" />
+      </Head>
       <div className={style.container} style={{ fontFamily: "Noto Sans KR" }}>
         <div className="row">
           <div className="col-sm-12 ">
             <div className="col-sm-10 col-sm-offset-1  text-center">
-              <div className={style.four_zero_four_bg}>
-                {/* <h1 style={{ fontSize: "80px" }} className="text-center ">
-                  404
-                </h1> */}
-              </div>
-
-              <div className="contant_box_404">
+              {/* <div className={style.four_zero_four_bg}>
                 <h1 style={{ fontSize: "80px" }} className="text-center ">
+                  404
+                </h1>
+              </div> */}
+              <div className="contant_box_404 mt-16">
+                <Lottie
+                  loop
+                  animationData={lottieJson}
+                  play
+                  className="w-full"
+                />
+                {/* <h1 style={{ fontSize: "80px" }} className="text-center ">
                   404
                 </h1>
                 <h3 style={{ fontSize: "25px" }} className="h2">
                   페이지를 찾을 수 없습니다.
-                </h3>
+                </h3> */}
+
                 <Link href="/">
                   <a
-                    className={[style.link_404, "hover:bg-green-400"].join(" ")}
+                    className={[style.link_404, "hover:bg-gray-700"].join(" ")}
                     style={{ borderRadius: "30px" }}
                   >
                     홈으로 이동하기
