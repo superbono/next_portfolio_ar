@@ -42,7 +42,7 @@ export default function mainSection00() {
         T E C H N O L O G I E S 🔰
       </h1>
       <p className="text-center mb-10 text-xs sm:text-xs xs:text-xs md:text-base">
-        프로그래밍시에 사용했던 언어,프레임워크,라이브러리,도구 등
+        프로그래밍시에 사용했던 언어,프레임워크,라이브러리 및 도구
       </p>
       <Slider {...settings}>
         <div>
