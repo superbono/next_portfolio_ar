@@ -1,4 +1,4 @@
-import DefaultLayout from "../components/layout";
+import DefaultLayout from "../layout";
 import Head from "next/head";
 import Image from "next/image";
 import MoodLogo from "../public/projects/mood_logo.png";

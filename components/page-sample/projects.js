@@ -1,7 +1,7 @@
-import DefaultLayout from "../components/layout";
+import DefaultLayout from "../layout";
 import Head from "next/head";
-import { TOKEN, DATABASE_ID } from "../config";
-import ProjectItem from "../components/projects/project-item";
+import { TOKEN, DATABASE_ID } from "../../config";
+import ProjectItem from "../projects/project-item";
 
 export default function Projects({ projects }) {
   // console.log(projects);
