@@ -35,7 +35,7 @@ export default function Home({ projects }) {
         <div id="projects">
           <ProjectContentsCareer />
           <h1 className="px-8 text-base font-bold md:text-lg lg:text-xl">
-            👨‍👦‍👦 COMPANY
+            💠 COMPANY
           </h1>
           <div className="grid grid-cols-1 gap-8 pt-0 pb-4 pl-4 pr-4 m-4 md:grid-cols-2">
             {projects.results.map((item) => (
