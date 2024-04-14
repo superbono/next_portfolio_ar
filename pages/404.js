@@ -12,7 +12,7 @@ export default function NotFoundPage() {
         <meta name="Main Page" content="에러페이지입니다." />
         <link rel="icon" href="/favicon.ico" />
       </Head>
-      <div className={style.container} style={{ fontFamily: "Noto Sans KR" }}>
+      <div>
         <div className="row">
           <div className="col-sm-12 ">
             <div className="col-sm-10 col-sm-offset-1  text-center">
@@ -37,7 +37,7 @@ export default function NotFoundPage() {
 
                 <Link href="/">
                   <a
-                    className="text-white px-4 py-3 bg-gray-900 text-xs mt-5 inline-block"
+                    className={`text-white px-4 py-3 bg-gray-900 text-xs mt-5 inline-block ${style.font}`}
                     style={{ borderRadius: "30px" }}
                   >
                     H O M E
