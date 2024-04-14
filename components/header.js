@@ -22,7 +22,9 @@ export default function Header() {
           </svg> */}
             <span className="ml-3 text-xl font-bold">
               PORTFOLIO 😉{" "}
-              <span className="text-xs text-slate-500">@최아리</span>
+              <span className="text-xs text-slate-500 dark:text-slate-400">
+                @최아리
+              </span>
             </span>
           </a>
         </Link>
