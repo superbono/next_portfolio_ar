@@ -32,7 +32,7 @@ export default function PersonalPjt() {
             />
           </div>
           <div className="flex flex-col sm:flex-row mt-0">
-            <div className="sm:w-full sm:pl-8 sm:py-8  sm:border-t-0  mt-4 pt-4 sm:mt-0 text-center sm:text-left ">
+            <div className="sm:w-full sm:pl-8 sm:py-8 sm:border-t-0  mt-4 pt-4 sm:mt-0 text-center sm:text-left ">
               <p className="leading-relaxed text-sm mb-1">
                 # 오늘 하루 고생한 나의 감정을 기록하는 다이어리
               </p>
@@ -42,8 +42,8 @@ export default function PersonalPjt() {
               <p className="leading-relaxed text-sm mb-1">
                 # 기획-분석-설계-개발-배포 단계를 거쳐 작업을 진행
               </p>
-              <p className="leading-relaxed text-sm mb-1 font-bold">
-                # 기술스택: Vscode / React.js / TypeScript / Firebase
+              <p className="leading-relaxed mb-1 font-bold text-sm">
+                # 기술스택: React.js & TypeScript & FireBase
               </p>
             </div>
           </div>

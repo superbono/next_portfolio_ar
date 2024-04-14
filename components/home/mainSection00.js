@@ -37,11 +37,11 @@ export default function mainSection00() {
     <div id="rolling" className="slider-container pt-20 pb-10 ">
       <h1
         style={{ textAlign: "center" }}
-        className="font-bold mb-2 mt-14 text-lg md:text-base lg:text-3xl xl:text-3xl"
+        className="font-bold text-lg mb-2 mt-14 sm:text-xl md:text-2xl lg:text-3xl xl:text-3xl"
       >
         T E C H N O L O G I E S 🔰
       </h1>
-      <p className="text-center mb-10 text-sm sm:text-sm xs:text-sm">
+      <p className="text-center mb-10 text-xs sm:text-xs xs:text-xs md:text-base">
         프로그래밍시에 사용했던 언어,프레임워크,라이브러리 및 도구
       </p>
       <Slider {...settings}>

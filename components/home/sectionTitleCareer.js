@@ -4,11 +4,11 @@ import Container from "./container";
 const SectionTitle = (props) => {
   return (
     <Container
-      className={`flex w-full flex-col mt-4 ${
+      className={`flex w-full flex-col mt-8 ${
         props.align === "left" ? "" : "items-center justify-center text-center"
       }`}
     >
-      <h5 className="font-bold text-lg  mt-24 sm:text-xl md:text-2xl lg:text-3xl xl:text-3xl">
+      <h5 className="font-bold text-lg mt-28 sm:text-xl md:text-2xl lg:text-3xl xl:text-3xl">
         H I S T O R Y 😀
         <span className="pl-4 text-emerald-500">
           {/* {projects.results.length} 건 */}
