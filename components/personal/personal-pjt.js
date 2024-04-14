@@ -14,7 +14,7 @@ export default function PersonalPjt() {
               </div> */}
             <div className="flex flex-col items-center text-center justify-center">
               <h2 className="font-medium title-font mb-4 mt-0 text-gray-900 sm:text-xl md:text-2xl lg:text-3xl xl:text-3xl">
-                오늘 하루 나의 감정일기 💌
+                오늘 하루 나의 감정일기 📖
               </h2>
               {/* <div className="w-12 h-1 bg-emerald-500 rounded mt-2 mb-4 hover:bg-emerald-700"></div> */}
             </div>
@@ -37,10 +37,10 @@ export default function PersonalPjt() {
                 # 오늘 하루 고생한 나의 감정을 기록하는 다이어리
               </p>
               <p className="leading-relaxed text-sm mb-1">
-                # 모바일에 최적화되어 있으며 추후 웹 관련 작업예정
+                # 모바일에 최적화되어 있으며 상시 업데이트
               </p>
               <p className="leading-relaxed text-sm mb-1">
-                # 기획-분석-설계-개발-배포 단계를 거쳐 작업을 진행
+                # 기획-분석-설계-개발-배포 단계로 작업 진행
               </p>
               <p className="leading-relaxed mb-1 font-bold text-sm">
                 # 기술스택: React.js & TypeScript & FireBase

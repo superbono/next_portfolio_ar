@@ -12,6 +12,13 @@
     font-family: "Noto Sans KR", sans-serif;
     /* 또는 다른 원하는 폰트 설정 */
   }
+  body::-webkit-scrollbar {
+    width: 3px;
+  }
+  body::-webkit-scrollbar-thumb {
+    border-radius: 20px;
+    background-color: #3c4c63;
+  }
 }
 
 .bg-primary {

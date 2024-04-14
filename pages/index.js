@@ -10,6 +10,7 @@ import PopupWidget from "../components/popupWidget";
 import ProjectItem from "../components/projects/project-item";
 import { TOKEN, DATABASE_ID } from "../config";
 import PersnalProject from "../components/personal/personal-pjt";
+import FAQ from "../components/home/faq";
 
 export default function Home({ projects }) {
   return (
@@ -51,6 +52,7 @@ export default function Home({ projects }) {
           </div>
         </section> */}
         {/* <Benefits data={benefitOne} /> */}
+        <FAQ />
       </main>
       <PopupWidget />
     </DefaultLayout>
