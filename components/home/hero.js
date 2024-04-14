@@ -9,7 +9,7 @@ const Hero = () => {
   return (
     <>
       <Container
-        className="flex flex-wrap min-h-full pt-28 mt-10 mb-10"
+        className="flex flex-wrap min-h-full pt-28 mt-8 mb-6"
         id="home"
       >
         <div className="flex items-center justify-center w-full lg:w-1/2">
@@ -53,7 +53,7 @@ const Hero = () => {
 
             <div
               style={{ gap: "10px" }}
-              className="flex flex-row items-center mt-2 sm:space-x-1 sm:space-y-0 sm:items-center sm:flex-row sm:justify-center md:justify-center lg:justify-start xl:justify-start"
+              className="flex flex-row items-center mt-2 sm:space-x-1 sm:space-y-0 sm:items-center sm:flex-row sm:justify-start md:justify-start lg:justify-start xl:justify-start"
             >
               {/* <Link href="/projects">
                 <a className="btn-project text-sm inline-flex justify-center text-white border-0 py-2 px-6 focus:outline-none hover:text-white rounded ">
@@ -63,7 +63,7 @@ const Hero = () => {
               <a
                 href="#projects"
                 style={{ color: "#fff" }}
-                className="bg-emerald-500 justify-center text-sm inline-flex hover:bg-emerald-700  border-0 py-2 px-6 focus:outline-none  rounded "
+                className="bg-emerald-500 justify-center text-md inline-flex hover:bg-emerald-700  border-0 py-2 px-4 focus:outline-none  rounded "
                 rel="noreferrer"
               >
                 프로젝트 보러가기
@@ -72,7 +72,7 @@ const Hero = () => {
                 href="https://forest-ermine-7eb.notion.site/R-E-S-U-M-E-10649d7b7623429f9eb03c1a6088c99e"
                 target="_blank"
                 style={{ color: "#fff" }}
-                className="bg-teal-500 justify-center text-sm inline-flex hover:bg-teal-600  border-0 py-2 px-6 focus:outline-none  rounded "
+                className="bg-teal-500 justify-center text-md inline-flex hover:bg-teal-600  border-0 py-2 px-6 focus:outline-none  rounded "
                 rel="noreferrer"
               >
                 이력서 보러가기
