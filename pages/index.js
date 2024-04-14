@@ -16,7 +16,7 @@ export default function Home({ projects }) {
   return (
     <DefaultLayout>
       <Head>
-        <title>MAIN</title>
+        <title>포트폴리오 - 메인</title>
         <meta name="Main Page" content="포트폴리오 메인 페이지입니다." />
         <link rel="icon" href="/favicon.ico" />
       </Head>
