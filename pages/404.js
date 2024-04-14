@@ -37,7 +37,7 @@ export default function NotFoundPage() {
 
                 <Link href="/">
                   <a
-                    className={`text-white hover:text-white px-20 py-3 md:px-40 md:py-4 bg-gray-900 text-xs mt-4 md:mt-32 inline-block ${style.font}`}
+                    className={`text-white hover:text-white px-20 py-3 md:px-40 md:py-4 md:text-lg bg-gray-900 text-xs mt-4 md:mt-24 inline-block ${style.font}`}
                     style={{ borderRadius: "30px" }}
                   >
                     H O M E
