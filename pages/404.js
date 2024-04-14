@@ -21,12 +21,12 @@ export default function NotFoundPage() {
                   404
                 </h1>
               </div> */}
-              <div className="contant_box_404 mt-16">
+              <div className="contant_box_404">
                 <Lottie
                   loop
                   animationData={lottieJson}
                   play
-                  className="w-full"
+                  style={{ with: "500px", height: "350px" }}
                 />
                 {/* <h1 style={{ fontSize: "80px" }} className="text-center ">
                   404
@@ -37,7 +37,7 @@ export default function NotFoundPage() {
 
                 <Link href="/">
                   <a
-                    className={`text-white px-4 py-3 bg-gray-900 text-xs mt-5 inline-block ${style.font}`}
+                    className={`text-white hover:text-white px-20 py-3 md:px-40 md:py-4 bg-gray-900 text-xs mt-4 md:mt-32 inline-block ${style.font}`}
                     style={{ borderRadius: "30px" }}
                   >
                     H O M E
