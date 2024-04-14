@@ -37,10 +37,10 @@ export default function NotFoundPage() {
 
                 <Link href="/">
                   <a
-                    className={[style.link_404, "hover:bg-gray-700"].join(" ")}
+                    className="text-white px-4 py-3 bg-gray-900 text-xs mt-5 inline-block"
                     style={{ borderRadius: "30px" }}
                   >
-                    홈으로 이동하기
+                    H O M E
                   </a>
                 </Link>
               </div>
