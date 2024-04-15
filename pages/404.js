@@ -21,7 +21,7 @@ export default function NotFoundPage() {
                   404
                 </h1>
               </div> */}
-              <div className="contant_box_404">
+              <div className="contant_box_404 mt-10 md:mt-20">
                 <Lottie
                   loop
                   animationData={lottieJson}
