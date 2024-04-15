@@ -14,7 +14,7 @@ const SectionTitle = (props) => {
           {/* {projects.results.length} 건 */}
           (5년 6개월)
           <a
-            href="https://forest-ermine-7eb.notion.site/R-E-S-U-M-E-10649d7b7623429f9eb03c1a6088c99e"
+            href="https://forest-ermine-7eb.notion.site/C-A-R-E-E-R-H-I-S-T-O-R-Y-bf4438c00087450ea36a1657b66b98ba?pvs=4"
             target="_blank"
             style={{
               display: "flex",
