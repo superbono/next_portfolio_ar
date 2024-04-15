@@ -76,7 +76,7 @@ export default function FAQ() {
           ))}
         </div>
 
-        <p className="pb-8 text-xs md:text-sm sm:text-sm lg:text-base text-center text-gray-600 textbase mt-9 font-semibold">
+        {/* <p className="pb-8 text-xs md:text-sm sm:text-sm lg:text-base text-center text-gray-600 textbase mt-9 font-semibold">
           더 자세한 내용을 알고 싶으세요?
           <a
             href="https://forest-ermine-7eb.notion.site/R-E-S-U-M-E-10649d7b7623429f9eb03c1a6088c99e"
@@ -87,7 +87,7 @@ export default function FAQ() {
           >
             자세한 내용 보러가기
           </a>
-        </p>
+        </p> */}
       </div>
     </section>
   );
